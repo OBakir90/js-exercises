@@ -23,7 +23,7 @@ let alarmInt;
 window.clearInterval(alarmInt)
 
 function addZero(number) {
-  return (parseInt(number, 10) < 10 ? "0" : "") + number;
+  return (parseInt(number) < 10 ? "0" : "") + number;
 }
 
 
